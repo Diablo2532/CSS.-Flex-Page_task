@@ -14,6 +14,9 @@
 .fa-3x {
   font-size: 3em;
 }
+.fa-10x {
+  font-size: 10em;
+}
 
 body {
   background: rgba(0, 0, 0, 0.9);
@@ -68,4 +71,26 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.Info  { 
+  margin: auto; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.AboutUs {
+  flex: 1;
+  min-width: 250px;
+  padding: 4rem 1rem;
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
 }

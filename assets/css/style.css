@@ -63,16 +63,19 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
-.Case > div {
+.Case {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.servises {
   flex: 1;
   max-width: 300px;
   min-width: 250px;
-  padding: 4rem 1rem;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  padding: 4rem 1rem;
 }
 
 .Info .AboutUs {

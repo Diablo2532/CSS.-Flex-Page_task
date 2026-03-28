@@ -21,14 +21,16 @@
 }
 
 body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
   background: rgba(0, 0, 0, 0.9);
   color: #fff;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .mainContent {
   display: flex;
   width: 100%;
   height: 100vh;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -36,7 +38,7 @@ body {
   text-align: center;
 
   background-color: black;
-  background-image: url(https://cdn.pixabay.com/photo/2025/09/19/05/48/mountain-range-9842371_1280.jpg);
+  background-image: url("/assets/img/blue-smoky-art-abstract-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -46,48 +48,53 @@ body {
   margin: 20px auto;
 }
 .mainContent .logo {
-  height: 180px;
   width: 180px;
+  height: 180px;
 }
 .mainContent .title {
-  font-size: 2.2rem;
   margin-top: 1rem;
+
+  font-size: 2.2rem;
 }
 
 .sources .case {
-  text-align: center;
-
   display: flex;
   max-width: 960px;
   margin: auto;
+
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2.5rem;
+
+  text-align: center;
 }
+
 .case {
   display: flex;
-  gap: 10px;
-  
+
   flex-direction: row;
   align-items: center;
+  gap: 10px;
 }
-.servises {
+
+.services {
   display: flex;
-  flex: 1;
   max-width: 300px;
   min-width: 250px;
   padding: 4rem 1rem;
-  gap: 1rem;
 
+  flex: 1;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
 
 .info .aboutUs {
   display: flex;
   width: 100%;
   margin: auto;
+
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,8 +107,7 @@ body {
   max-width: 300px;
   min-width: 250px;
   padding: 4rem 1rem;
- 
-  
+
   flex-direction: column;
   justify-content: center;
 }
